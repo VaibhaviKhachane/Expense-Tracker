@@ -34,7 +34,7 @@ Project uses Tkinter for GUI.
 **Login Page**
 ![Preview of Layout](https://github.com/VaibhaviKhachane/Expense-Tracker/blob/main/Capture1.JPG?raw=true)
  
-**Add Income Page
+**Add Income Page**
 ![Preview of Layout](https://github.com/VaibhaviKhachane/Expense-Tracker/blob/main/Capture2.JPG?raw=true)
 
 **Income and Expense Curve**
