@@ -10,39 +10,33 @@ Project uses Tkinter for GUI.
 
 # Getting Started
 ### Project Prerequisites
-- Basic concepts of Python
-- Tkinter
+- Python version 3 or above
+- DB Browser for SQLite Database
 
 ### Installation Requirenments:
-- pip install Pillow
-- Pip install sqlite3
 
-### Steps for database connectivity:
+**For working of these project one needs to install Matplotlib, Pillow libraries of Python.**
 
-1. Import sqlite3
+**Run the following commands in your cmd to install it:**
+- pip install pillow
+- pip install matplotlib 
 
-2. Create a connection object
-conn=sqlite3.connect("income.db")
- conn=sqlite3.connect("expense.db")
-
-3. Create cursor object
-cur=conn.cursor()
-
-4. Execute required query
-
-5. Commit
-
-# Running the tests
+# Features
 
 **View Expense tab:** It reads every row of expenses table displays on the tkinter window.
 
 **Add income tab:** It takes input from user about amount and source of income and store it in the income.db table in database.
 
-**income expense curve tab:** It contains button when clicked on it, it shows line graph between income and expense.
+**income expense curve tab:** Graphical Representation tracks the income and expense of user.
 
 **Outputs:**
 
+**Login Page**
 ![Preview of Layout](https://github.com/VaibhaviKhachane/Expense-Tracker/blob/main/Capture1.JPG?raw=true)
+ 
+**Add Income Page
 ![Preview of Layout](https://github.com/VaibhaviKhachane/Expense-Tracker/blob/main/Capture2.JPG?raw=true)
+
+**Income and Expense Curve**
 ![Preview of Layout](https://github.com/VaibhaviKhachane/Expense-Tracker/blob/main/Capture3.JPG?raw=true)
 
